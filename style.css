@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body{background: #FF4E50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Roboto Slab', serif;}
+
+h1{
+text-align:center;
+color:#222;
+font-weight: 700;
+font-size: 40px;
+padding-top: 10px;}
+
+.have_todo{
+display: flex;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 50px;
+padding-bottom: 50px;}
+button{
+background:none;
+border: none;
+cursor: pointer;
+padding: 8px;
+font-size: 24px;}
+.you_will{  padding: 8px;
+font-size: 24px;
+border: none;
+outline: none;
+border-color: transparent;
+border-radius: 10px;
+background-color: rgb(177, 180, 172);
+min-width:35% ;}
+
+.created{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 20px;
+transition: .8s ease;}
+
+.todo_opening{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+font-size: 25px;
+font-weight: 400;
+background-color: white;
+border-radius: 15px;
+list-style: none;
+min-width:50%;
+min-height: 35px;}
+
+.delete{display: none;}
+
+.done{
+opacity: .5 ;
+text-decoration: line-through;}
+
+.fa-solid{pointer-events: none;}
+
+.enter_here:hover{
+color: rgb(36, 185, 74);
+cursor: pointer;}
+
+.you_will_btn:hover{color: rgb(41, 187, 41);}
+
+.you_did_btn:hover{color: rgb(239, 14, 14);}
